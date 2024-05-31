@@ -1,0 +1,1 @@
+INSERT INTO tasks (title_task,description_task,status_task,deadline_task,created_task) VALUES ('Tarefa 1','tarefa decorrente a inserção de produtos no sistema','Criada','2024-06-03 11:00:00','2024-05-31 18:00:00')
