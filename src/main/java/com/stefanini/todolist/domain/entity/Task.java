@@ -1,5 +1,6 @@
 package com.stefanini.todolist.domain.entity;
 
+import java.time.LocalDateTime;
 import java.util.Date;
 
 import org.hibernate.annotations.CreationTimestamp;
@@ -41,11 +42,11 @@ public class Task {
 	private String status;
 	
 	@Column(nullable = false)
-	private Date deadline;
+	private LocalDateTime deadline;
 	
 	@CreationTimestamp
 	@Column(nullable = false, updatable = false)
-	private Date created;
+	private LocalDateTime created;
 	
 	@UpdateTimestamp
 	private Date updated;

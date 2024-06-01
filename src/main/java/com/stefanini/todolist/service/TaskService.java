@@ -9,13 +9,13 @@ import org.springframework.stereotype.Service;
 import com.stefanini.todolist.domain.entity.Task;
 import com.stefanini.todolist.domain.repository.TaskRepository;
 
+import lombok.AllArgsConstructor;
 import lombok.RequiredArgsConstructor;
 
 @Service
-@RequiredArgsConstructor
+@AllArgsConstructor
 public class TaskService {
 	
-	@Autowired
 	private TaskRepository taskRepository;
 	
 	//Create 
