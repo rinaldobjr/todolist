@@ -31,25 +31,23 @@ public class Task {
 	@Basic(optional = false)
 	private Long id;
 	
-	@Column(name = "title_task", nullable = false)
-	private String titleTask;
+	@Column(nullable = false )
+	private String title;
 	
-	@Column(name = "description_task", nullable = false)
-	private String descriptionTask;
+	@Column(nullable = false)
+	private String description;
 	
+	@Column(nullable = false)
+	private String status;
 	
-	@Column(name = "status_task")
-	private String statusTask;
-	
-	@Column(name = "deadline_task")
-	private Date deadLineTask;
+	@Column(nullable = false)
+	private Date deadline;
 	
 	@CreationTimestamp
-	@Column(name = "created_task", nullable = false, updatable = false)
-	private Date createdTask;
+	@Column(nullable = false, updatable = false)
+	private Date created;
 	
 	@UpdateTimestamp
-	@Column(name = "update_task")
-	private Date updateTask;
+	private Date updated;
 	
 }
