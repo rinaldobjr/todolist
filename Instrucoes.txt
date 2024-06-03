@@ -266,3 +266,8 @@ CREATE TABLE [dbo].[tasks](
 ) ON [PRIMARY]
 GO
 
+==============
+
+INSERT INTO tasks (id,title,description,status,deadline,createdAt,updatedAt) VALUES (1,'Tarefa 1','Tarefa decorrente a inserção de produtos no sistema','Criada','2024-06-03T11:00:00','2024-05-31T00:00:00', '2024-05-31T00:00:00');
+INSERT INTO tasks (id,title,description,status,deadline,createdAt,updatedAt) VALUES (2,'Tarefa 2','Verificar a inserção de produtos no sistema','Criada','2024-06-03T14:00:00','2024-05-31T00:00:00', '2024-05-31T00:00:00');
+INSERT INTO tasks (id,title,description,status,deadline,createdAt,updatedAt) VALUES (3,'Tarefa 3','Verificar a inserção de produtos no sistema','Criada','2024-06-03T17:00:00','2024-05-31T00:00:00', '2024-05-31T00:00:00');
